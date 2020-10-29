@@ -1,0 +1,170 @@
+.Pagina {
+    display: grid;
+    grid-gap: 10px;
+    width: 1100px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.Header {
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: bold;
+    display: grid;
+    grid-gap: 5px;
+    text-align: center;
+    background-image: url(../img/header_bg.png);
+    background-repeat: repeat-x;
+}
+
+.MenuLogo {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.MenuKnop1 {
+    text-decoration: none;
+    padding-top: 35px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.MenuKnop2 {
+    text-decoration: none;
+    padding-top: 35px;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.MenuKnop3 {
+    text-decoration: none;
+    padding-top: 35px;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.MenuKnop4 {
+    text-decoration: none;
+    padding-top: 35px;
+    grid-column: 5;
+    grid-row: 1;
+}
+
+/*Einde menu Begin Kern*/
+
+.Midden {
+    display: grid;
+    background-image: url(../img/banner_bg.png);
+    background-repeat: repeat-x;
+}
+
+.Banner {
+    width: 700px;
+    height: 300px;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 75px;
+}
+
+.DummyTitle {
+    margin-left: 15px;
+    color: white;
+    font-size: 26px;
+    grid-column: 3;
+    grid-row: 2;
+    padding-top: 25px;
+    padding-right: 40px;
+}
+
+.DummyTekst {
+    margin-left: 15px;
+    margin-right: 5px;
+    padding-top: 75px;
+    grid-column: 3;
+    grid-row: 2 / span 3;
+    font-size: 14px;
+    color: white;
+}
+
+/*Einde kern. Begin slot met knoppen */
+
+.Slot {
+    display: grid;
+    padding-top: 15px;
+    padding-left: 40px;
+    color: rgb(97,116,133);
+    font-size: 20px;
+}
+
+.SliderDummyTekst1, .SliderDummyTekst2, .SliderDummyTekst3 {
+    font-size: 14px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Slider1 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.Slider2 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.Slider3 {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.SliderTitle1 {
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.SliderDummyTekst1 {
+    grid-row: 6;
+    grid-column: 1;
+}
+
+.SliderTitle2 {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.SliderDummyTekst2 {
+    grid-row: 6;
+    grid-column: 2;
+}
+
+.SliderTitle3 {
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.SliderDummyTekst3 {
+    grid-row: 6;
+    grid-column: 3;
+}
+
+/* Einde slider's Begin Footer */
+
+.Footer {
+    color: white;
+    text-align: center;
+    background-image: url(../img/footer_bg.png);
+    background-repeat: repeat-x;
+}
+
+/*Extra pagina's */ 
+
+.Fortnite {
+    width: 1000px;
+    height: 500px;
+}
