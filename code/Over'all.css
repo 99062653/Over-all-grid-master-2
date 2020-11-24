@@ -26,12 +26,13 @@ nav > ul {
     padding-right: 75px;
 }
 
-nav > ul > a {
+nav > ul > li {
     display: inline-block;
     margin-right: 50px;
     color: blue;
     font-size: 26px;
 }
+
 
 /*Einde menu Begin Kern*/
 
